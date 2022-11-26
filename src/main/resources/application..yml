@@ -1,0 +1,10 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: demoservice
+  data:
+    mongodb:
+      uri: mongodb+srv://david:HolyDiver@cluster0.c37ujh3.mongodb.net/?retryWrites=true&w=majority
+      database: myFirstDatabase
